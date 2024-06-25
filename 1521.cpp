@@ -47,7 +47,7 @@ int BinSearch(int x, int n)
 int main()
 {
     cin >> n >> k;
-    memset(bit,0,sizeof(bit));
+    //memset(bit,0,sizeof(bit));
     for (int i = 1; i <= n; ++i)
         add(i,1);
     int curr = 1, res = n;
